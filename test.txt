@@ -1,0 +1,10 @@
+program emblem
+kamus
+    
+algoritma
+    input(emblem)
+    gold = emblem div 9
+    emblem = emblem mod 9
+    silver = emblem div 3
+    emblem = emblem mod 3
+endprogram
